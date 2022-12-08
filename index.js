@@ -2,22 +2,22 @@ function selectMode(mode) {
 
 var color = "ghostWhite";
 var image = "img/cruzeiro.png";
-var label = "Light Mode";
+var label = "Modo claro";
 
 if (mode === "dark") {
     color = "darkSlateBlue";
     image = "img/atletico-mineiro.png";
-    label = "Dark Mode";
+    label = "Modo escuro";
 
 } else if (mode === "light") {
     color = "ghostWhite";
     image = "img/atletico-mineiro.png";
-    label = "Light Mode"; 
+    label = "Modo claro"; 
 
 } else {
     color = "dimGray";
     image = "img/atletico-mineiro.png";
-    label = "Ninja Mode"; 
+    label = "Modo cinza"; 
 }
 
 console.log(label)
